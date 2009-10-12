@@ -3,7 +3,9 @@ require 'fileutils'
 
 include FileUtils
 
-@dest = "/Library/Application Support/Developer/Shared/Xcode"
+@dest = "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode"
+#@dest = "/Library/Application Support/Developer/Shared/Xcode"
+
 @path = File.dirname(__FILE__)
 
 def copy_project_tmplate
